@@ -1,0 +1,9 @@
+name: JFrog
+run-name: Testing JFrog Integration
+on: [push, workflow_dispatch]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: self-hosted
+    steps:
+      - name: Setup JFrog CLI
+        uses: jfrog/setup-jfrog-cli@v3.3.0
