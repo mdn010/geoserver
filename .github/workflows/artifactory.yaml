@@ -2,7 +2,7 @@ name: JFrog
 run-name: Testing JFrog Integration
 on: [push, workflow_dispatch]
 jobs:
-  Explore-GitHub-Actions:
+  Artifactory-Scan:
     runs-on: self-hosted
     steps:
       - name: Setup JFrog CLI
